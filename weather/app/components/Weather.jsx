@@ -18,9 +18,11 @@ var Weather = React.createClass({
       that.setState({
         location: location,
         temp: temp,
+        isLoading: false,
       });
     }, function(errorMessage) {
-      alert(errorMessage);
+        that.setState({isLoading: false});
+        alert(errorMessage);
     });
   },
   render: function() {
