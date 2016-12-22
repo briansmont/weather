@@ -15,7 +15,7 @@ var About = (props) => {
             <a href="http://openweathermap.org/" target="_blank">Open Weather Map</a> - Their API provides all of our weather data! You search the city name, and they provide the information.
           </li>
           <li>
-            <a href="https://github.com/briansmont/learn-react" target="_blank">Weather App Repo</a> - My github repo.
+            <a href="https://github.com/briansmont/weather" target="_blank">Weather App Repo</a> - My github repo.
           </li>
 
           
