@@ -17,7 +17,7 @@ module.exports = {
         return res.data.main.temp;
       }
     }, function() {
-      throw new Error('Unable to fetch weather data, try again soon');
+      throw new Error('Unable to fetch weather data for your city!');
     });
   }
 };

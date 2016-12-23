@@ -43,6 +43,17 @@ var Weather = React.createClass({
       }
     }
     
+<<<<<<< HEAD
+=======
+    function renderError() {
+      if (typeof errorMessage === 'string') {
+        return (
+          <ErrorModal message={errorMessage}/>
+        );
+      }
+    }
+    
+>>>>>>> revealmodal
     return(
       <div>
         <h1 className="text-center">Get the weather!</h1>
